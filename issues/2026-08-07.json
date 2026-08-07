@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-07",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Friday of the eighteenth week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": [
+      "Saint Sixtus II, Pope, and Companions, Martyrs",
+      "Saint Cajetan, Priest"
+    ]
+  },
+  "readings": {
+    "firstRef": "Nahum 2:1, 3; 3:1–3, 6–7",
+    "psalmRef": "Deuteronomy 32:35cd-36ab, 39abcd, 41",
+    "secondRef": null,
+    "gospelRef": "Matthew 16:24–28",
+    "usccbLink": "https://bible.usccb.org/bible/readings/080726.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 16:24",
+    "text": "Then Jesus said to his disciples: If any man will come after me, let him deny himself, and take up his cross, and follow me.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "come-holy-spirit",
+    "title": "Come, Holy Spirit",
+    "text": "Come, Holy Spirit,\nfill the hearts of thy faithful\nand kindle in them the fire of thy love.\nSend forth thy Spirit and they shall be created,\nand thou shalt renew the face of the earth.\n\nO God, who by the light of the Holy Spirit\ndidst instruct the hearts of the faithful,\ngrant that by the same Holy Spirit\nwe may be truly wise and ever rejoice in his consolation.\nThrough Christ our Lord.\nAmen.",
+    "note": "Before work you do not feel equal to."
+  },
+  "consider": {
+    "id": "qa-mary-worship",
+    "question": "Do Catholics worship Mary?",
+    "answer": "No. Adoration is given to God alone; Mary receives honour, of a higher degree than any other saint but different in kind from what belongs to God. Every Marian devotion the Church has ever approved points at her Son — that is the test of whether it is being used rightly.",
+    "citation": "Catechism of the Catholic Church, 971, 2110–2114"
+  },
+  "headline": "a plain friday at the end of the shift",
+  "headlineGenerated": true,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-07T12:01:10.985Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "plain-fact",
+    "blocks": [
+      {
+        "block": "reflection",
+        "pass": false,
+        "reason": "The text references Matthew 16:2, which does not match the assigned Gospel reading of Matthew 16:24–28 and cuts off abruptly.",
+        "drafts": 2,
+        "judge": "Draft 2 grounds the liturgical day in the concrete reality of a long shift rather than keeping it purely abstract."
+      },
+      {
+        "block": "headline",
+        "pass": true,
+        "reason": "The text is an orthodox and coherent headline appropriate for a weekday in Ordinary Time.",
+        "drafts": 3,
+        "judge": "It anchors the moment in a specific, unglamorous reality with 'a plain friday' rather than resorting to abstract questions or generic fatigue."
+      }
+    ],
+    "dropped": [
+      {
+        "section": "reflection",
+        "reason": "The text references Matthew 16:2, which does not match the assigned Gospel reading of Matthew 16:24–28 and cuts off abruptly."
+      }
+    ],
+    "degraded": [
+      {
+        "section": "saintStory",
+        "reason": "saintStory: no JSON object in reply"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-07T12:00:49.139Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-07.json"
+  }
+}
