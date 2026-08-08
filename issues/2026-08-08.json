@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-08",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "white",
+    "colorName": "white",
+    "rank": "memorial",
+    "feastOrSaint": "Saint Dominic, Priest",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Habakkuk 1:12—2:4",
+    "psalmRef": "Psalm 9:8–9, 10–11, 12–13",
+    "secondRef": null,
+    "gospelRef": "Matthew 17:14–20",
+    "usccbLink": "https://bible.usccb.org/bible/readings/080826.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 17:14",
+    "text": "And when he was come to the multitude, there came to him a man falling down on his knees before him, saying: Lord, have pity on my son, for he is a lunatic, and suffereth much: for he falleth often into the fire, and often into the water.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "hail-mary",
+    "title": "The Hail Mary",
+    "text": "Hail Mary, full of grace,\nthe Lord is with thee.\nBlessed art thou amongst women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death.\nAmen.",
+    "note": "Scripture and the Church, in four lines. Good for a truck cab or a stairwell."
+  },
+  "consider": {
+    "id": "qa-fasting-rules",
+    "question": "What is the Church actually asking of me on a Friday?",
+    "answer": "Catholics are asked to do penance on every Friday of the year; in Lent, that means abstaining from meat, and Ash Wednesday and Good Friday are days of both fasting and abstinence. Outside Lent, in the United States, another penance may be substituted for abstaining from meat — but something is meant to be done. Age and health exempt you; nobody is asked to injure themselves.",
+    "citation": "Catechism of the Catholic Church, 1249–1253, 2043"
+  },
+  "headline": "the unglamorous stretch",
+  "headlineGenerated": true,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-08T12:01:17.673Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "long-middle",
+    "blocks": [
+      {
+        "block": "reflection",
+        "pass": false,
+        "reason": "The block is incomplete and cuts off mid-sentence.",
+        "drafts": 2,
+        "judge": "Draft 1 describes the real human experience of a 'dull grind' rather than resorting to pious phrasing like 'the steady work of Christian life'."
+      },
+      {
+        "block": "headline",
+        "pass": true,
+        "reason": "The headline contains no prohibited content, unverified facts, or heterodox statements.",
+        "drafts": 3,
+        "judge": "It avoids the cliché phrase 'dull grind' in favor of a simpler, less generic observation."
+      }
+    ],
+    "dropped": [
+      {
+        "section": "reflection",
+        "reason": "The block is incomplete and cuts off mid-sentence."
+      }
+    ],
+    "degraded": [
+      {
+        "section": "saintStory",
+        "reason": "saintStory: no JSON object in reply"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-08T12:00:55.766Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-08.json"
+  }
+}
