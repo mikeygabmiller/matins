@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>the unglamorous stretch · Matins</title>
+<meta name="description" content="Saint Dominic, Priest — Saturday, August 8, 2026. Matins, a daily Catholic devotional.">
+<link rel="canonical" href="https://mikeygabmiller.github.io/matins/2026-08-08/">
+<meta property="og:title" content="the unglamorous stretch · Matins">
+<meta property="og:description" content="Saint Dominic, Priest — Saturday, August 8, 2026. Matins, a daily Catholic devotional.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mikeygabmiller.github.io/matins/2026-08-08/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4EEE2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E0C09" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="https://mikeygabmiller.github.io/matins/mark.svg" type="image/svg+xml">
+<style>
+  :root {
+    --accent:#9A7B31; --tint:#F6F0E2;
+    --paper:#FBF7EF; --paper-alt:#F4EEE2;
+    --ink:#241F1A; --ink-soft:#5C5449; --rule:#DDD3C2;
+    --shadow:0 1px 2px rgba(36,31,26,.04), 0 8px 28px rgba(36,31,26,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --accent:#D8B662; --tint:#272014;
+      --paper:#17140F; --paper-alt:#0E0C09;
+      --ink:#EFE7DA; --ink-soft:#A99E8C; --rule:#332E27;
+      --shadow:none;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper-alt);color:var(--ink);font-family:'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, 'Times New Roman', serif;line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:672px;margin:0 auto;padding:28px 18px 64px}
+  .sheet{background:var(--paper);border:1px solid var(--rule);border-radius:14px;padding:0 0 30px;box-shadow:var(--shadow);overflow:hidden}
+  /* The liturgical colour of the day, before a word is read. */
+  .band{height:5px;background:var(--accent)}
+  .inner{padding:30px 34px 0}
+  /* ~66 characters to the line: the single biggest thing for reading comfort. */
+  .inner > p, .inner > blockquote, .inner > .action, .inner > .prayer, .inner > .note{max-width:38em}
+  header.brand{display:flex;align-items:center;gap:11px;margin-bottom:26px}
+  header.brand a{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink)}
+  .wordmark{font-size:22px;letter-spacing:.14em;text-transform:uppercase}
+  .eyebrow{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+  h1{font-weight:400;font-size:clamp(27px,5vw,35px);line-height:1.22;margin:.3em 0 .5em;max-width:22ch}
+  /* Not flex: the dot has to sit on the first line of the text and let the
+     text wrap under itself, which flex will not do once the line is long. */
+  .daybar{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.6;color:var(--ink-soft)}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);display:inline-block;margin-right:8px}
+  .hdo{color:var(--accent);font-weight:700}
+  hr{border:0;border-top:1px solid var(--rule);margin:24px 0}
+  /* Section head: a rule, then the label. The rule is what makes the page
+     scannable — it is the only thing separating one section from the next. */
+  h2{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 12px;padding-top:28px;border-top:1px solid var(--rule);line-height:1.4}
+  h2:first-of-type{border-top:0;padding-top:0}
+  h2 + .note{margin:-8px 0 12px}
+  p{font-size:17.5px;margin:0 0 15px}
+  a{color:var(--accent);text-underline-offset:2px}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+  .readings{width:auto;border-collapse:collapse;margin:0 0 14px}
+  .readings th{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);text-align:left;font-weight:600;padding:0 18px 8px 0;white-space:nowrap;vertical-align:baseline}
+  .readings td{padding:0 0 8px 0;font-size:16.5px;line-height:1.45;vertical-align:baseline}
+  .usccb{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:14.5px;font-weight:600}
+  blockquote{margin:0;border-left:3px solid var(--accent);padding-left:18px;font-style:italic}
+  blockquote p{font-size:19.5px;line-height:1.62;margin-bottom:10px}
+  .cite{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-style:normal;font-size:12px;color:var(--ink-soft)}
+  .action{background:var(--tint);border-radius:9px;padding:16px 18px;margin:6px 0 0}
+  .action .label{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:6px}
+  .action p{font-size:16.5px;margin:0}
+  /* A prayer is said, not skimmed: one line per line, hanging indent on wrap. */
+  .prayer{margin:0 0 15px}
+  .prayer .stanza{margin:0 0 14px}
+  .prayer .stanza:last-child{margin-bottom:0}
+  .prayer .line{font-size:17.5px;line-height:1.58;padding-left:15px;text-indent:-15px;margin:0}
+  .prayer-title{font-size:21px;line-height:1.3;margin:0 0 6px}
+  .question{font-size:20px;line-height:1.4;margin:0 0 12px}
+  .note{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:13px;font-style:italic;color:var(--ink-soft);margin:0 0 16px;line-height:1.6}
+  nav.issue-nav{display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:space-between;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:13.5px;margin-top:34px;padding-top:20px;border-top:1px solid var(--rule)}
+  nav.issue-nav a{text-decoration:none;padding:7px 13px;border:1px solid var(--rule);border-radius:999px;color:var(--ink)}
+  nav.issue-nav a:hover{border-color:var(--accent);color:var(--accent)}
+  nav.issue-nav .spacer{flex:1}
+  footer{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:13px;color:var(--ink-soft);margin-top:26px;padding-top:18px;border-top:1px solid var(--rule);line-height:1.8}
+  ul.archive{list-style:none;margin:0;padding:0}
+  ul.archive li{border-bottom:1px solid var(--rule);padding:13px 0}
+  ul.archive li:last-child{border-bottom:0}
+  ul.archive .row{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+  ul.archive time{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:12px;color:var(--ink-soft);min-width:58px;flex:none}
+  ul.archive a{text-decoration:none;font-size:18px;line-height:1.4}
+  ul.archive a:hover{text-decoration:underline}
+  ul.archive .feast{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:12.5px;color:var(--ink-soft);margin:2px 0 0 88px;line-height:1.5}
+  h3.month{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;margin:28px 0 6px}
+  h3.month:first-of-type{margin-top:8px}
+  .swatch{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:8px;flex:none}
+  form.signup{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 8px;max-width:38em}
+  form.signup input{flex:1 1 240px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:16px;padding:13px 15px;border:1px solid var(--rule);border-radius:9px;background:var(--paper-alt);color:var(--ink)}
+  form.signup input:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+  form.signup button{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;padding:13px 24px;border:0;border-radius:9px;background:var(--accent);color:var(--paper);cursor:pointer}
+  form.signup button:hover{filter:brightness(1.08)}
+  .msg{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-size:14px;margin-top:10px;color:var(--ink-soft)}
+  @media (max-width:540px){
+    .inner{padding:24px 21px 0}
+    h2{padding-top:24px}
+    /* The spacers only make sense while the row fits on one line. */
+    nav.issue-nav{gap:8px}
+    nav.issue-nav .spacer{display:none}
+    nav.issue-nav a{padding:7px 11px}
+    ul.archive .feast{margin-left:0}
+  }
+  @media print{
+    :root{--paper:#fff;--paper-alt:#fff;--ink:#000;--ink-soft:#444;--rule:#ccc;--shadow:none}
+    .wrap{max-width:none;padding:0}
+    .sheet{border:0;border-radius:0;box-shadow:none}
+    .band,nav.issue-nav,form.signup{display:none}
+    a{color:inherit;text-decoration:none}
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <div class="sheet">
+    <div class="band"></div>
+    <div class="inner">
+      <header class="brand">
+        <a href="https://mikeygabmiller.github.io/matins/"><svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Matins mark">
+  <path d="M20 7c6.6 0 12 5.4 12 12v14H8V19C8 12.4 13.4 7 20 7z" fill="var(--accent)" fill-opacity="0.12"/>
+  <path d="M20 7c6.6 0 12 5.4 12 12v14H8V19C8 12.4 13.4 7 20 7z" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M12 33V21.5a8 8 0 0 1 16 0V33" stroke="var(--accent)" stroke-width="1.2" stroke-opacity="0.55"/>
+  <circle cx="20" cy="21.5" r="4.2" fill="var(--accent)" fill-opacity="0.9"/>
+  <path d="M4 33h32" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round"/>
+</svg><span class="wordmark">Matins</span></a>
+      </header>
+      <div class="eyebrow">Saturday, August 8, 2026</div>
+    <h1>the unglamorous stretch</h1>
+    <div class="daybar"><span class="dot"></span><span>Saint Dominic, Priest &middot; Ordinary Time &middot; White</span></div>
+    <hr>
+<h2>Today at Mass</h2>
+    <table class="readings"><tr><th scope="row">First</th><td>Habakkuk 1:12—2:4</td></tr><tr><th scope="row">Psalm</th><td>Psalm 9:8–9, 10–11, 12–13</td></tr><tr><th scope="row">Gospel</th><td>Matthew 17:14–20</td></tr></table>
+    <p class="usccb"><a href="https://bible.usccb.org/bible/readings/080826.cfm">Read the readings at the USCCB &rarr;</a></p>
+<h2>Verse of the day</h2>
+      <blockquote><p>And when he was come to the multitude, there came to him a man falling down on his knees before him, saying: Lord, have pity on my son, for he is a lunatic, and suffereth much: for he falleth often into the fire, and often into the water.</p><div class="cite">Matthew 17:14 &middot; Douay-Rheims</div></blockquote>
+<h2>Prayer</h2>
+    <p class="prayer-title">The Hail Mary</p>
+    <div class="note">Scripture and the Church, in four lines. Good for a truck cab or a stairwell.</div>
+    <div class="prayer"><div class="stanza"><p class="line">Hail Mary, full of grace,</p><p class="line">the Lord is with thee.</p><p class="line">Blessed art thou amongst women,</p><p class="line">and blessed is the fruit of thy womb, Jesus.</p><p class="line">Holy Mary, Mother of God,</p><p class="line">pray for us sinners,</p><p class="line">now and at the hour of our death.</p><p class="line">Amen.</p></div></div>
+<h2>Consider</h2>
+    <p class="question">What is the Church actually asking of me on a Friday?</p>
+    <p>Catholics are asked to do penance on every Friday of the year; in Lent, that means abstaining from meat, and Ash Wednesday and Good Friday are days of both fasting and abstinence. Outside Lent, in the United States, another penance may be substituted for abstaining from meat — but something is meant to be done. Age and health exempt you; nobody is asked to injure themselves.</p>
+    <div class="cite">Catechism of the Catholic Church, 1249–1253, 2043</div>
+      <nav class="issue-nav" aria-label="Issues">
+    <a href="https://mikeygabmiller.github.io/matins/2026-08-07/" rel="prev">&larr; Aug 7</a>
+    <span class="spacer"></span>
+    <a href="https://mikeygabmiller.github.io/matins/today/">Today</a>
+    <a href="https://mikeygabmiller.github.io/matins/archive/">Archive</a>
+    <span class="spacer"></span>
+    
+  </nav>
+      <footer>
+        <a href="https://mikeygabmiller.github.io/matins/archive/">Archive</a> &middot;
+        <a href="https://mikeygabmiller.github.io/matins/">Subscribe</a><br>
+        Made by a young Catholic in Snohomish County, Washington.
+      </footer>
+    </div>
+  </div>
+</div>
+</body>
+</html>
