@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-09",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "Sunday",
+    "feastOrSaint": "Nineteenth Sunday in Ordinary Time",
+    "isHolyDayOfObligation": true,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "1 Kings 19:9a, 11–13a",
+    "psalmRef": "Psalm 85:9, 10, 11–12, 13–14",
+    "secondRef": "Romans 9:1–5",
+    "gospelRef": "Matthew 14:22–33",
+    "usccbLink": "https://bible.usccb.org/bible/readings/080926.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 14:22",
+    "text": "And forthwith Jesus obliged his disciples to go up into the boat, and to go before him over the water, till he dismissed the people.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "guardian-angel",
+    "title": "Prayer to My Guardian Angel",
+    "text": "Angel of God, my guardian dear,\nto whom God's love commits me here,\never this day be at my side,\nto light and guard, to rule and guide.\nAmen.",
+    "note": "A child’s prayer that grown men should keep saying, especially on the road."
+  },
+  "consider": {
+    "id": "qa-pray-to-saints",
+    "question": "Why pray to saints instead of to God?",
+    "answer": "Asking a saint to pray for you is the same thing as asking a friend to pray for you, except that this friend is already with God. It is intercession, not worship — worship belongs to God alone. The saints do not compete with Christ; they are the proof of what he does with a life.",
+    "citation": "Catechism of the Catholic Church, 956, 2683"
+  },
+  "headline": "another demand on a day off",
+  "headlineGenerated": true,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-09T12:01:18.631Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "objection",
+    "blocks": [
+      {
+        "block": "reflection",
+        "pass": false,
+        "reason": "The text is incomplete, cutting off mid-sentence at the end of the block.",
+        "drafts": 2,
+        "judge": "Draft 2 grounds the scene in specific physical labor—hauling freight and holding down a job site—rather than clunky liturgical phrasing."
+      },
+      {
+        "block": "headline",
+        "pass": true,
+        "reason": "The headline contains no quotes, false promises, heterodoxy, or factual errors.",
+        "drafts": 3,
+        "judge": "Draft 1 was selected because all three provided drafts are identical."
+      }
+    ],
+    "dropped": [
+      {
+        "section": "reflection",
+        "reason": "The text is incomplete, cutting off mid-sentence at the end of the block."
+      }
+    ],
+    "degraded": []
+  },
+  "meta": {
+    "builtAt": "2026-08-09T12:00:55.410Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-09.json"
+  }
+}
