@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-11",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "white",
+    "colorName": "white",
+    "rank": "memorial",
+    "feastOrSaint": "Saint Clare, Virgin",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Ezekiel 2:8–3:4",
+    "psalmRef": "Psalm 119:14, 24, 72, 103, 111, 131",
+    "secondRef": null,
+    "gospelRef": "Matthew 18:1–5, 10, 12–14",
+    "usccbLink": "https://bible.usccb.org/bible/readings/081126.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 18:1",
+    "text": "At that hour the disciples came to Jesus, saying: Who thinkest thou is the greater in the kingdom of heaven?",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "angelus",
+    "title": "The Angelus",
+    "text": "The Angel of the Lord declared unto Mary.\nAnd she conceived of the Holy Spirit.\nHail Mary…\n\nBehold the handmaid of the Lord.\nBe it done unto me according to thy word.\nHail Mary…\n\nAnd the Word was made flesh.\nAnd dwelt among us.\nHail Mary…\n\nPray for us, O holy Mother of God,\nthat we may be made worthy of the promises of Christ.\n\nPour forth, we beseech thee, O Lord, thy grace into our hearts,\nthat we to whom the Incarnation of Christ thy Son\nwas made known by the message of an angel,\nmay by his Passion and Cross\nbe brought to the glory of his Resurrection.\nThrough the same Christ our Lord.\nAmen.",
+    "note": "Prayed at six, noon, and six. Keeps the Incarnation inside a working day."
+  },
+  "consider": {
+    "id": "qa-missed-mass-reason",
+    "question": "I had to work Sunday. Did I sin?",
+    "answer": "No. Illness, the care of infants, and work that genuinely cannot be moved excuse a person from the Sunday obligation. If you can get to a Saturday vigil or a different Mass time, take it; if you truly cannot, keep the day holy some other way and do not carry a false guilt. Your pastor can dispense you if the conflict is ongoing.",
+    "citation": "Catechism of the Catholic Church, 2181"
+  },
+  "headline": "Saint Clare, Virgin",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-11T12:00:32.926Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "scene",
+    "blocks": [
+      {
+        "block": "reflection",
+        "pass": false,
+        "reason": "The text cuts off abruptly mid-sentence, rendering the reflection incomplete and incoherent.",
+        "drafts": 2,
+        "judge": "Draft 2 uses more sharply concrete, sensory details—cold boots, lukewarm coffee, radio noise—to ground the scene immediately."
+      },
+      {
+        "block": "headline",
+        "pass": false,
+        "reason": "The headline is off-topic and incoherent for the liturgical day.",
+        "drafts": 3,
+        "judge": "Draft 1 drops the unnecessary article to make the image more immediate and concise."
+      }
+    ],
+    "dropped": [
+      {
+        "section": "reflection",
+        "reason": "The text cuts off abruptly mid-sentence, rendering the reflection incomplete and incoherent."
+      },
+      {
+        "section": "headline",
+        "reason": "The headline is off-topic and incoherent for the liturgical day."
+      }
+    ],
+    "degraded": [
+      {
+        "section": "saintStory",
+        "reason": "saintStory: no JSON object in reply"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-11T12:00:11.067Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-11.json"
+  }
+}
