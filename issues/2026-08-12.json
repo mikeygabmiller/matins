@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-12",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Wednesday of the nineteenth week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": [
+      "Saint Jane Frances de Chantal, Religious"
+    ]
+  },
+  "readings": {
+    "firstRef": "Ezekiel 9:1–7; 10:18–22",
+    "psalmRef": "Psalm 113:1–2, 3–4, 5–6",
+    "secondRef": null,
+    "gospelRef": "Matthew 18:15–20",
+    "usccbLink": "https://bible.usccb.org/bible/readings/081226.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 18:15",
+    "text": "But if thy brother shall offend against thee, go, and rebuke him between thee and him alone. If he shall hear thee, thou shalt gain thy brother.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "our-father",
+    "title": "The Our Father",
+    "text": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come;\nthy will be done on earth as it is in heaven.\nGive us this day our daily bread;\nand forgive us our trespasses\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.\nAmen.",
+    "note": "The prayer the Lord himself taught. Say it slowly enough to mean the fourth line."
+  },
+  "consider": {
+    "id": "qa-rosary-point",
+    "question": "What is the point of the rosary if I keep getting distracted?",
+    "answer": "The rosary is meditation on the life of Christ with his mother, carried by repetition that is meant to occupy the surface of the mind. Distraction is not failure; noticing it and beginning again is the prayer. Ten minutes prayed badly is worth more than the perfect rosary you did not say.",
+    "citation": null
+  },
+  "headline": "before you say it to anyone else",
+  "headlineGenerated": true,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-12T12:01:17.118Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "objection",
+    "blocks": [
+      {
+        "block": "reflection",
+        "pass": false,
+        "reason": "The text is incomplete and ends abruptly mid-sentence, rendering it incoherent.",
+        "drafts": 1
+      },
+      {
+        "block": "headline",
+        "pass": true,
+        "reason": "The headline is orthodox, coherent, and aligns well with the Gospel theme of private fraternal correction without violating any constraints.",
+        "drafts": 3,
+        "judge": "Draft 1 names a specific, recognizable habit—venting or blabbing to others first—rather than defaulting to abstract devotional phrasing."
+      }
+    ],
+    "dropped": [
+      {
+        "section": "reflection",
+        "reason": "The text is incomplete and ends abruptly mid-sentence, rendering it incoherent."
+      }
+    ],
+    "degraded": [
+      {
+        "section": "saintStory",
+        "reason": "saintStory: no JSON object in reply"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-12T12:00:56.981Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-12.json"
+  }
+}
