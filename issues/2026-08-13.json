@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-13",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Thursday of the nineteenth week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": [
+      "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs"
+    ]
+  },
+  "readings": {
+    "firstRef": "Ezekiel 12:1–12",
+    "psalmRef": "Psalm 78:56–57, 58–59, 61–62",
+    "secondRef": null,
+    "gospelRef": "Matthew 18:21–19:1",
+    "usccbLink": "https://bible.usccb.org/bible/readings/081326.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 18:21",
+    "text": "Then came Peter unto him and said: Lord, how often shall my brother offend against me, and I forgive him? till seven times?",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "st-michael",
+    "title": "Prayer to Saint Michael the Archangel",
+    "text": "Saint Michael the Archangel, defend us in battle.\nBe our protection against the wickedness and snares of the devil.\nMay God rebuke him, we humbly pray;\nand do thou, O Prince of the heavenly host,\nby the power of God,\nthrust into hell Satan and all evil spirits\nwho prowl about the world seeking the ruin of souls.\nAmen.",
+    "note": "Leo XIII gave this to the Church for hard ground. Short enough to say in a doorway."
+  },
+  "consider": {
+    "id": "qa-non-catholic-communion",
+    "question": "Can my Protestant friend receive Communion at a Catholic Mass?",
+    "answer": "Ordinarily no, and it is not a snub. Receiving Communion states that you are in full communion with the Catholic Church and hold what she holds about the Eucharist. Your friend is genuinely welcome at Mass and can come forward for a blessing.",
+    "citation": "Catechism of the Catholic Church, 1398–1401"
+  },
+  "headline": "the man who still owes you",
+  "headlineGenerated": true,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-13T12:01:05.455Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "long-middle",
+    "blocks": [
+      {
+        "block": "reflection",
+        "pass": false,
+        "reason": "The text ends abruptly mid-sentence, leaving the reflection incomplete and incoherent.",
+        "drafts": 1
+      },
+      {
+        "block": "headline",
+        "pass": true,
+        "reason": "The headline is orthodox, matches the Gospel passage of the day, and complies with all rules.",
+        "drafts": 3,
+        "judge": "Draft 3 names the concrete human situation without pre-announcing the religious virtue or moral lesson."
+      }
+    ],
+    "dropped": [
+      {
+        "section": "reflection",
+        "reason": "The text ends abruptly mid-sentence, leaving the reflection incomplete and incoherent."
+      }
+    ],
+    "degraded": [
+      {
+        "section": "saintStory",
+        "reason": "saintStory: no JSON object in reply"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-13T12:00:43.523Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-13.json"
+  }
+}
