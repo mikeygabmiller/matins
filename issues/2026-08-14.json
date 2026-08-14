@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-14",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "red",
+    "colorName": "red",
+    "rank": "memorial",
+    "feastOrSaint": "Saint Maximilian Mary Kolbe, Priest and Martyr",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Ezekiel 16:1–15, 60, 63",
+    "psalmRef": "Isaiah 12:2–3, 4bcd, 5–6",
+    "secondRef": null,
+    "gospelRef": "Matthew 19:3–12",
+    "usccbLink": "https://bible.usccb.org/bible/readings/081426.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 19:3",
+    "text": "And there came to him the Pharisees tempting him, and saying: Is it lawful for a man to put away his wife for every cause?",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "suscipe",
+    "title": "The Suscipe of Saint Ignatius",
+    "text": "Take, Lord, and receive all my liberty,\nmy memory, my understanding,\nand my entire will —\nall that I have and possess.\nThou hast given all to me;\nto thee, O Lord, I return it.\nAll is thine; dispose of it wholly according to thy will.\nGive me thy love and thy grace,\nfor this is enough for me.\nAmen.",
+    "note": "Do not pray it distractedly. It asks for everything and means it."
+  },
+  "consider": {
+    "id": "qa-private-revelation",
+    "question": "Do I have to believe in Fatima or Lourdes?",
+    "answer": "No. Public revelation closed with the apostles; approved apparitions add nothing to it. When the Church approves one she is saying it contains nothing contrary to the faith and may help devotion — Catholics are free to take it up or leave it alone.",
+    "citation": "Catechism of the Catholic Church, 66–67"
+  },
+  "headline": "Saint Maximilian Mary Kolbe, Priest and Martyr",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-14T12:00:10.731Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "plain-fact",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-14T12:00:08.815Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-14.json"
+  }
+}
