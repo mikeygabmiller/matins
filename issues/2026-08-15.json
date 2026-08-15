@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-15",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "white",
+    "colorName": "white",
+    "rank": "solemnity",
+    "feastOrSaint": "The Assumption of the Blessed Virgin Mary",
+    "isHolyDayOfObligation": true,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": null,
+    "psalmRef": "Psalm 45:10, 11, 12, 16",
+    "secondRef": "1 Corinthians 15:20–27",
+    "gospelRef": "Luke 1:39–56",
+    "usccbLink": "https://bible.usccb.org/bible/readings/081526.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Luke 1:39",
+    "text": "And Mary rising up in those days, went into the hill country with haste into a city of Juda.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "salve-regina",
+    "title": "Hail, Holy Queen",
+    "text": "Hail, holy Queen, Mother of mercy,\nour life, our sweetness, and our hope.\nTo thee do we cry, poor banished children of Eve.\nTo thee do we send up our sighs,\nmourning and weeping in this valley of tears.\nTurn then, most gracious advocate,\nthine eyes of mercy toward us,\nand after this our exile\nshow unto us the blessed fruit of thy womb, Jesus.\nO clement, O loving, O sweet Virgin Mary.\nAmen.",
+    "note": "The Church sings this at the end of the day and at the end of a life."
+  },
+  "consider": {
+    "id": "qa-confession-frequency",
+    "question": "How often do I actually have to go to confession?",
+    "answer": "Grave sin must be confessed before receiving Communion, and the Church asks every Catholic to confess serious sins at least once a year. Confessing venial sins is not required, but the Church strongly commends it: it forms the conscience and hands the same weaknesses over to grace again and again. Once a month is a sane rhythm for most people.",
+    "citation": "Catechism of the Catholic Church, 1457–1458"
+  },
+  "headline": "The Assumption of the Blessed Virgin Mary",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-15T12:00:31.406Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "scene",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-15T12:00:29.282Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-15.json"
+  }
+}
