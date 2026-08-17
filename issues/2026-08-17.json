@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-17",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Monday of the twentieth week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Ezekiel 24:15–23",
+    "psalmRef": "Deuteronomy 32:18–19, 20, 21",
+    "secondRef": null,
+    "gospelRef": "Matthew 19:16–22",
+    "usccbLink": "https://bible.usccb.org/bible/readings/081726.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 19:16",
+    "text": "And behold one came and said to him: Good master, what good shall I do that I may have life everlasting?",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "aquinas-before-work",
+    "title": "Saint Thomas Aquinas — Before Work",
+    "text": "Grant me, O Lord my God,\na mind to know thee,\na heart to seek thee,\nwisdom to find thee,\nconduct pleasing to thee,\nfaithful perseverance in waiting for thee,\nand a hope of finally embracing thee.\nGive me a right way of beginning,\na right way of going on,\nand a right way of finishing.\nAmen.",
+    "note": "Aquinas prayed before he wrote. Pray it before you open the truck door."
+  },
+  "consider": {
+    "id": "qa-purgatory",
+    "question": "What is purgatory?",
+    "answer": "The final purification of those who die in God's friendship but are not yet wholly free of the effects of sin. Everyone in purgatory is saved — this is not a second chance and not a lesser hell. It is why the Church prays for the dead, and why that prayer is worth doing.",
+    "citation": "Catechism of the Catholic Church, 1030–1032"
+  },
+  "headline": "Monday of the twentieth week of Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-17T12:00:35.939Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "long-middle",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-17T12:00:34.430Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-17.json"
+  }
+}
