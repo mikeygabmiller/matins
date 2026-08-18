@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-18",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Tuesday of the twentieth week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Ezekiel 28:1–10",
+    "psalmRef": "Deuteronomy 32:26–27ab, 27cd-28, 30, 35cd-36ab",
+    "secondRef": null,
+    "gospelRef": "Matthew 19:23–30",
+    "usccbLink": "https://bible.usccb.org/bible/readings/081826.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 19:23",
+    "text": "Then Jesus said to his disciples: Amen, I say to you, that a rich man shall hardly enter into the kingdom of heaven.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "come-holy-spirit",
+    "title": "Come, Holy Spirit",
+    "text": "Come, Holy Spirit,\nfill the hearts of thy faithful\nand kindle in them the fire of thy love.\nSend forth thy Spirit and they shall be created,\nand thou shalt renew the face of the earth.\n\nO God, who by the light of the Holy Spirit\ndidst instruct the hearts of the faithful,\ngrant that by the same Holy Spirit\nwe may be truly wise and ever rejoice in his consolation.\nThrough Christ our Lord.\nAmen.",
+    "note": "Before work you do not feel equal to."
+  },
+  "consider": {
+    "id": "qa-communion-state-of-grace",
+    "question": "Can I receive Communion if I am aware of a mortal sin?",
+    "answer": "Not until you have been to confession. Receiving in that state does further harm rather than good. If you find yourself at Mass in that position, stay in the pew, make an act of contrition, and go to confession as soon as you can — nobody is watching you as closely as you think.",
+    "citation": "Catechism of the Catholic Church, 1385"
+  },
+  "headline": "Tuesday of the twentieth week of Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-18T12:00:30.987Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "plain-fact",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-18T12:00:23.397Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-18.json"
+  }
+}
