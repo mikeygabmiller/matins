@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-22",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "white",
+    "colorName": "white",
+    "rank": "memorial",
+    "feastOrSaint": "The Queenship of the Blessed Virgin Mary",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Ezekiel 43:1–7ab",
+    "psalmRef": "Psalm 85:9ab, 10, 11–12, 13–14",
+    "secondRef": null,
+    "gospelRef": "Matthew 23:1–12",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082226.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 23:1",
+    "text": "Then Jesus spoke to the multitudes and to his disciples,",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "angelus",
+    "title": "The Angelus",
+    "text": "The Angel of the Lord declared unto Mary.\nAnd she conceived of the Holy Spirit.\nHail Mary…\n\nBehold the handmaid of the Lord.\nBe it done unto me according to thy word.\nHail Mary…\n\nAnd the Word was made flesh.\nAnd dwelt among us.\nHail Mary…\n\nPray for us, O holy Mother of God,\nthat we may be made worthy of the promises of Christ.\n\nPour forth, we beseech thee, O Lord, thy grace into our hearts,\nthat we to whom the Incarnation of Christ thy Son\nwas made known by the message of an angel,\nmay by his Passion and Cross\nbe brought to the glory of his Resurrection.\nThrough the same Christ our Lord.\nAmen.",
+    "note": "Prayed at six, noon, and six. Keeps the Incarnation inside a working day."
+  },
+  "consider": {
+    "id": "qa-mary-worship",
+    "question": "Do Catholics worship Mary?",
+    "answer": "No. Adoration is given to God alone; Mary receives honour, of a higher degree than any other saint but different in kind from what belongs to God. Every Marian devotion the Church has ever approved points at her Son — that is the test of whether it is being used rightly.",
+    "citation": "Catechism of the Catholic Church, 971, 2110–2114"
+  },
+  "headline": "The Queenship of the Blessed Virgin Mary",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-22T12:00:26.542Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "long-middle",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-22T12:00:24.899Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-22.json"
+  }
+}
