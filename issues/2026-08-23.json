@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-23",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "Sunday",
+    "feastOrSaint": "Twenty-first Sunday in Ordinary Time",
+    "isHolyDayOfObligation": true,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Isaiah 22:19–23",
+    "psalmRef": "Psalm 138:1–2, 2–3, 6, 8",
+    "secondRef": "Romans 11:33–36",
+    "gospelRef": "Matthew 16:13–20",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082326.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 16:13",
+    "text": "And Jesus came into the quarters of Cesarea Philippi: and he asked his disciples, saying: Whom do men say that the Son of man is?",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "our-father",
+    "title": "The Our Father",
+    "text": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come;\nthy will be done on earth as it is in heaven.\nGive us this day our daily bread;\nand forgive us our trespasses\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.\nAmen.",
+    "note": "The prayer the Lord himself taught. Say it slowly enough to mean the fourth line."
+  },
+  "consider": {
+    "id": "qa-fasting-rules",
+    "question": "What is the Church actually asking of me on a Friday?",
+    "answer": "Catholics are asked to do penance on every Friday of the year; in Lent, that means abstaining from meat, and Ash Wednesday and Good Friday are days of both fasting and abstinence. Outside Lent, in the United States, another penance may be substituted for abstaining from meat — but something is meant to be done. Age and health exempt you; nobody is asked to injure themselves.",
+    "citation": "Catechism of the Catholic Church, 1249–1253, 2043"
+  },
+  "headline": "Twenty-first Sunday in Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-23T12:00:28.996Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "objection",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-23T12:00:27.290Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-23.json"
+  }
+}
