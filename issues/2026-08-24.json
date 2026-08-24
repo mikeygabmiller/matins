@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-24",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "red",
+    "colorName": "red",
+    "rank": "feast",
+    "feastOrSaint": "Saint Bartholomew, Apostle",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Revelation 21:9b-14",
+    "psalmRef": "Psalm 145:10–11, 12–13, 17–18",
+    "secondRef": null,
+    "gospelRef": "John 1:45–51",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082426.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "John 1:45",
+    "text": "Philip findeth Nathanael, and saith to him: We have found him of whom Moses in the law, and the prophets did write, Jesus the son of Joseph of Nazareth.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "st-michael",
+    "title": "Prayer to Saint Michael the Archangel",
+    "text": "Saint Michael the Archangel, defend us in battle.\nBe our protection against the wickedness and snares of the devil.\nMay God rebuke him, we humbly pray;\nand do thou, O Prince of the heavenly host,\nby the power of God,\nthrust into hell Satan and all evil spirits\nwho prowl about the world seeking the ruin of souls.\nAmen.",
+    "note": "Leo XIII gave this to the Church for hard ground. Short enough to say in a doorway."
+  },
+  "consider": {
+    "id": "qa-pray-to-saints",
+    "question": "Why pray to saints instead of to God?",
+    "answer": "Asking a saint to pray for you is the same thing as asking a friend to pray for you, except that this friend is already with God. It is intercession, not worship — worship belongs to God alone. The saints do not compete with Christ; they are the proof of what he does with a life.",
+    "citation": "Catechism of the Catholic Church, 956, 2683"
+  },
+  "headline": "Saint Bartholomew, Apostle",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-24T12:00:33.005Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "long-middle",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-24T12:00:31.291Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-24.json"
+  }
+}
