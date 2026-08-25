@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-25",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Tuesday of the twenty-first week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": [
+      "Saint Louis",
+      "Saint Joseph of Calasanz, Priest"
+    ]
+  },
+  "readings": {
+    "firstRef": "2 Thessalonians 2:1–3a, 14–17",
+    "psalmRef": "Psalm 96:10, 11–12, 13",
+    "secondRef": null,
+    "gospelRef": "Matthew 23:23–26",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082526.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 23:23",
+    "text": "Woe to you scribes and Pharisees, hypocrites; because you tithe mint, and anise, and cummin, and have left the weightier things of the law; judgment, and mercy, and faith. These things you ought to have done, and not to leave those undone.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "suscipe",
+    "title": "The Suscipe of Saint Ignatius",
+    "text": "Take, Lord, and receive all my liberty,\nmy memory, my understanding,\nand my entire will —\nall that I have and possess.\nThou hast given all to me;\nto thee, O Lord, I return it.\nAll is thine; dispose of it wholly according to thy will.\nGive me thy love and thy grace,\nfor this is enough for me.\nAmen.",
+    "note": "Do not pray it distractedly. It asks for everything and means it."
+  },
+  "consider": {
+    "id": "qa-immaculate-conception",
+    "question": "What is the Immaculate Conception?",
+    "answer": "It is Mary's own conception, not Jesus'. The Church holds that from the first instant of her existence Mary was preserved from original sin, by the grace of the very Redeemer she would bear. Pius IX defined it in 1854 — a dogma, not an opinion.",
+    "citation": "Catechism of the Catholic Church, 490–493"
+  },
+  "headline": "Tuesday of the twenty-first week of Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-25T12:00:30.170Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "plain-fact",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-25T12:00:28.530Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-25.json"
+  }
+}
