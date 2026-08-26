@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-26",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Wednesday of the twenty-first week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "2 Thessalonians 3:6–10, 16–18",
+    "psalmRef": "Psalm 128:1–2, 4–5",
+    "secondRef": null,
+    "gospelRef": "Matthew 23:27–32",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082626.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 23:27",
+    "text": "Woe to you scribes and Pharisees, hypocrites; because you are like to whited sepulchres, which outwardly appear to men beautiful, but within are full of dead men's bones, and of all filthiness.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "act-of-contrition",
+    "title": "An Act of Contrition",
+    "text": "O my God, I am heartily sorry for having offended thee,\nand I detest all my sins because of thy just punishments,\nbut most of all because they offend thee, my God,\nwho art all good and deserving of all my love.\nI firmly resolve, with the help of thy grace,\nto sin no more and to avoid the near occasions of sin.\nAmen.",
+    "note": "The traditional form. Pray it at night; bring the grave things to confession."
+  },
+  "consider": {
+    "id": "qa-feel-nothing",
+    "question": "I feel nothing at Mass. Is something wrong with me?",
+    "answer": "Probably not. The Mass is Christ's action, and what it gives does not depend on your emotional weather that morning. Consolation is a gift, not a wage; long stretches without it are ordinary in the lives of the saints. Keep showing up, and tell a confessor or a good priest if the dryness is crushing you.",
+    "citation": null
+  },
+  "headline": "Wednesday of the twenty-first week of Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-26T12:00:36.509Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "long-middle",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-26T12:00:34.831Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-26.json"
+  }
+}
