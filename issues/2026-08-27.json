@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-27",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "white",
+    "colorName": "white",
+    "rank": "memorial",
+    "feastOrSaint": "Saint Monica",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "1 Corinthians 1:1–9",
+    "psalmRef": "Psalm 145:2–3, 4–5, 6–7",
+    "secondRef": null,
+    "gospelRef": "Matthew 24:42–51",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082726.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 24:42",
+    "text": "Watch ye therefore, because ye know not what hour your Lord will come.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "apostles-creed",
+    "title": "The Apostles' Creed",
+    "text": "I believe in God, the Father almighty,\nCreator of heaven and earth,\nand in Jesus Christ, his only Son, our Lord,\nwho was conceived by the Holy Spirit,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, died and was buried;\nhe descended into hell;\non the third day he rose again from the dead;\nhe ascended into heaven,\nand is seated at the right hand of God the Father almighty;\nfrom there he will come to judge the living and the dead.\n\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\nAmen.",
+    "note": "What we actually hold, said in the first person. Worth praying when belief feels thin."
+  },
+  "consider": {
+    "id": "qa-scruples",
+    "question": "I confess the same thing constantly and still feel guilty. Is that holiness?",
+    "answer": "No, and it is worth saying plainly: scrupulosity is a burden, not a virtue. Absolution is real whether or not you feel absolved. Pick one confessor, tell him what is happening, and then obey what he tells you rather than re-litigating it alone.",
+    "citation": null
+  },
+  "headline": "Saint Monica",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-27T12:00:30.939Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "objection",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-27T12:00:29.119Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-27.json"
+  }
+}
