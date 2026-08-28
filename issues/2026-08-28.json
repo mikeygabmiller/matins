@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-28",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "white",
+    "colorName": "white",
+    "rank": "memorial",
+    "feastOrSaint": "Saint Augustine, Bishop and Doctor of the Church",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "1 Corinthians 1:17–25",
+    "psalmRef": "Psalm 33:1–2, 4–5, 10–11",
+    "secondRef": null,
+    "gospelRef": "Matthew 25:1–13",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082826.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 25:1",
+    "text": "Then shall the kingdom of heaven be like to ten virgins, who taking their lamps went out to meet the bridegroom and the bride.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "aquinas-before-work",
+    "title": "Saint Thomas Aquinas — Before Work",
+    "text": "Grant me, O Lord my God,\na mind to know thee,\na heart to seek thee,\nwisdom to find thee,\nconduct pleasing to thee,\nfaithful perseverance in waiting for thee,\nand a hope of finally embracing thee.\nGive me a right way of beginning,\na right way of going on,\nand a right way of finishing.\nAmen.",
+    "note": "Aquinas prayed before he wrote. Pray it before you open the truck door."
+  },
+  "consider": {
+    "id": "qa-non-catholic-communion",
+    "question": "Can my Protestant friend receive Communion at a Catholic Mass?",
+    "answer": "Ordinarily no, and it is not a snub. Receiving Communion states that you are in full communion with the Catholic Church and hold what she holds about the Eucharist. Your friend is genuinely welcome at Mass and can come forward for a blessing.",
+    "citation": "Catechism of the Catholic Church, 1398–1401"
+  },
+  "headline": "Saint Augustine, Bishop and Doctor of the Church",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-28T12:00:43.136Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "scene",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-28T12:00:41.309Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-28.json"
+  }
+}
