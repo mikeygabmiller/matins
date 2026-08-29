@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-29",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "red",
+    "colorName": "red",
+    "rank": "memorial",
+    "feastOrSaint": "The Passion of Saint John the Baptist",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "1 Corinthians 1:26–31",
+    "psalmRef": "Psalm 33:12–13, 18–19, 20–21",
+    "secondRef": null,
+    "gospelRef": "Mark 6:17–29",
+    "usccbLink": "https://bible.usccb.org/bible/readings/082926.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Mark 6:17",
+    "text": "For Herod himself had sent and apprehended John, and bound him in prison for the sake of Herodias the wife of Philip his brother, because he had married her.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "come-holy-spirit",
+    "title": "Come, Holy Spirit",
+    "text": "Come, Holy Spirit,\nfill the hearts of thy faithful\nand kindle in them the fire of thy love.\nSend forth thy Spirit and they shall be created,\nand thou shalt renew the face of the earth.\n\nO God, who by the light of the Holy Spirit\ndidst instruct the hearts of the faithful,\ngrant that by the same Holy Spirit\nwe may be truly wise and ever rejoice in his consolation.\nThrough Christ our Lord.\nAmen.",
+    "note": "Before work you do not feel equal to."
+  },
+  "consider": {
+    "id": "qa-rosary-point",
+    "question": "What is the point of the rosary if I keep getting distracted?",
+    "answer": "The rosary is meditation on the life of Christ with his mother, carried by repetition that is meant to occupy the surface of the mind. Distraction is not failure; noticing it and beginning again is the prayer. Ten minutes prayed badly is worth more than the perfect rosary you did not say.",
+    "citation": null
+  },
+  "headline": "The Passion of Saint John the Baptist",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-29T12:00:29.356Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "plain-fact",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "saintStory",
+        "reason": "saintStory: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-29T12:00:24.874Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-29.json"
+  }
+}
