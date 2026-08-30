@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-30",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "Sunday",
+    "feastOrSaint": "Twenty-second Sunday in Ordinary Time",
+    "isHolyDayOfObligation": true,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "Jeremiah 20:7–9",
+    "psalmRef": "Psalm 63:2, 3–4, 5–6, 8–9",
+    "secondRef": "Romans 12:1–2",
+    "gospelRef": "Matthew 16:21–27",
+    "usccbLink": "https://bible.usccb.org/bible/readings/083026.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Matthew 16:21",
+    "text": "From that time Jesus began to shew to his disciples, that he must go to Jerusalem, and suffer many things from the ancients and scribes and chief priests, and be put to death, and the third day rise again.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "hail-mary",
+    "title": "The Hail Mary",
+    "text": "Hail Mary, full of grace,\nthe Lord is with thee.\nBlessed art thou amongst women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death.\nAmen.",
+    "note": "Scripture and the Church, in four lines. Good for a truck cab or a stairwell."
+  },
+  "consider": {
+    "id": "qa-missed-mass-reason",
+    "question": "I had to work Sunday. Did I sin?",
+    "answer": "No. Illness, the care of infants, and work that genuinely cannot be moved excuse a person from the Sunday obligation. If you can get to a Saturday vigil or a different Mass time, take it; if you truly cannot, keep the day holy some other way and do not carry a false guilt. Your pastor can dispense you if the conflict is ongoing.",
+    "citation": "Catechism of the Catholic Church, 2181"
+  },
+  "headline": "Twenty-second Sunday in Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-30T12:00:44.146Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "objection",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-30T12:00:42.657Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-30.json"
+  }
+}
