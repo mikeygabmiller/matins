@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-31",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Monday of the twenty-second week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "1 Corinthians 2:1–5",
+    "psalmRef": "Psalm 119:97, 98, 99, 100, 101, 102",
+    "secondRef": null,
+    "gospelRef": "Luke 4:16–30",
+    "usccbLink": "https://bible.usccb.org/bible/readings/083126.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Luke 4:16",
+    "text": "And he came to Nazareth, where he was brought up: and he went into the synagogue, according to his custom, on the sabbath day; and he rose up to read.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "guardian-angel",
+    "title": "Prayer to My Guardian Angel",
+    "text": "Angel of God, my guardian dear,\nto whom God's love commits me here,\never this day be at my side,\nto light and guard, to rule and guide.\nAmen.",
+    "note": "A child’s prayer that grown men should keep saying, especially on the road."
+  },
+  "consider": {
+    "id": "qa-grace",
+    "question": "What do Catholics mean by grace?",
+    "answer": "Grace is God's own life given freely — not a reward you earn and not a feeling. It heals what sin has damaged and makes a person able to act as a child of God. Because it is free, the right response is not anxiety about deserving it but gratitude and use.",
+    "citation": "Catechism of the Catholic Church, 1996–1999"
+  },
+  "headline": "Monday of the twenty-second week of Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-08-31T12:00:29.798Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "long-middle",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-08-31T12:00:28.288Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/08-31.json"
+  }
+}
