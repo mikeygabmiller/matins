@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-01",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Tuesday of the twenty-second week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "1 Corinthians 2:10b-16",
+    "psalmRef": "Psalm 145:8–9, 10–11, 12–13ab, 13cd-14",
+    "secondRef": null,
+    "gospelRef": "Luke 4:31–37",
+    "usccbLink": "https://bible.usccb.org/bible/readings/090126.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Luke 4:31",
+    "text": "And he went down into Capharnaum, a city of Galilee, and there he taught them on the sabbath days.",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "glory-be",
+    "title": "The Glory Be",
+    "text": "Glory be to the Father,\nand to the Son,\nand to the Holy Spirit.\nAs it was in the beginning,\nis now, and ever shall be,\nworld without end.\nAmen.",
+    "note": "The shortest way to give God the last word on a day."
+  },
+  "consider": {
+    "id": "qa-purgatory",
+    "question": "What is purgatory?",
+    "answer": "The final purification of those who die in God's friendship but are not yet wholly free of the effects of sin. Everyone in purgatory is saved — this is not a second chance and not a lesser hell. It is why the Church prays for the dead, and why that prayer is worth doing.",
+    "citation": "Catechism of the Catholic Church, 1030–1032"
+  },
+  "headline": "Tuesday of the twenty-second week of Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-09-01T12:00:18.545Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "scene",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-09-01T12:00:17.327Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/09-01.json"
+  }
+}
