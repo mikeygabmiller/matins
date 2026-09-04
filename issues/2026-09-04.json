@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-04",
+  "liturgicalDay": {
+    "season": "Ordinary Time",
+    "color": "green",
+    "colorName": "green",
+    "rank": "weekday",
+    "feastOrSaint": "Friday of the twenty-second week of Ordinary Time",
+    "isHolyDayOfObligation": false,
+    "optionalMemorials": []
+  },
+  "readings": {
+    "firstRef": "1 Corinthians 4:1–5",
+    "psalmRef": "Psalm 37:3–4, 5–6, 27–28, 39–40",
+    "secondRef": null,
+    "gospelRef": "Luke 5:33–39",
+    "usccbLink": "https://bible.usccb.org/bible/readings/090426.cfm",
+    "unavailable": false
+  },
+  "verseOfDay": {
+    "ref": "Luke 5:33",
+    "text": "And they said to him: Why do the disciples of John fast often, and make prayers, and the disciples of the Pharisees in like manner; but thine eat and drink?",
+    "translation": "Douay-Rheims"
+  },
+  "reflection": null,
+  "saintStory": null,
+  "prayer": {
+    "id": "st-michael",
+    "title": "Prayer to Saint Michael the Archangel",
+    "text": "Saint Michael the Archangel, defend us in battle.\nBe our protection against the wickedness and snares of the devil.\nMay God rebuke him, we humbly pray;\nand do thou, O Prince of the heavenly host,\nby the power of God,\nthrust into hell Satan and all evil spirits\nwho prowl about the world seeking the ruin of souls.\nAmen.",
+    "note": "Leo XIII gave this to the Church for hard ground. Short enough to say in a doorway."
+  },
+  "consider": {
+    "id": "qa-mass-obligation",
+    "question": "Why do Catholics have to go to Mass on Sunday?",
+    "answer": "Sunday is the day of the Resurrection, and the Church asks Catholics to keep it by taking part in Mass on Sunday or Saturday evening, together with the holy days of obligation. It is a real obligation, binding those who can meet it. Deliberately skipping Mass without a serious reason is grave matter.",
+    "citation": "Catechism of the Catholic Church, 2177–2181"
+  },
+  "headline": "Friday of the twenty-second week of Ordinary Time",
+  "headlineGenerated": false,
+  "status": "partial",
+  "safetyReport": {
+    "checkedAt": "2026-09-04T12:00:57.346Z",
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "reflectionForm": "plain-fact",
+    "blocks": [],
+    "dropped": [],
+    "degraded": [
+      {
+        "section": "reflection",
+        "reason": "reflection: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      },
+      {
+        "section": "headline",
+        "reason": "headline: gemini 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "builtAt": "2026-09-04T12:00:55.895Z",
+    "dryRun": false,
+    "appName": "Matins",
+    "readingsSource": "https://cpbjr.github.io/catholic-readings-api/readings/2026/09-04.json"
+  }
+}
